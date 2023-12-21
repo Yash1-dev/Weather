@@ -1,0 +1,40 @@
+# Weather App
+
+This is a simple Weather App that allows users to check the current weather conditions for a given location. The app is built using HTML, CSS, and JavaScript. It fetches weather data from an API and displays it on the web page.
+
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Enter the desired location in the input field.
+3. Click the "Get" button to retrieve the weather information for the specified location.
+
+## Files
+
+- **index.html**: The main HTML file containing the structure of the Weather App.
+- **weatherapi.css**: The stylesheet file for styling the Weather App.
+- **weatherapi.js**: The JavaScript file responsible for fetching weather data and updating the UI.
+
+## Components
+
+### Title
+- The app has a title "Weather App" at the top.
+
+### Input
+- Users can input the location in the text field.
+- Clicking the "Get" button triggers the weather data retrieval.
+
+### Weather Information Display
+- An image representing the weather condition.
+- Current temperature in Celsius.
+- Weather description (e.g., Cloudy).
+- Location description.
+
+## Dependencies
+- The app relies on an external API for fetching weather data.
+- Ensure an active internet connection for proper functionality.
+
+## Acknowledgments
+- The weather data is fetched from a third-party API.
+- Image source: [Example Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl1qON72VRaEPZa5vG9MZJM89crYnAvr-JtA&usqp=CAU)
+
+Feel free to customize and enhance the Weather App according to your needs!

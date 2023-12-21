@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: linear-gradient(to right ,rgb(31, 70, 121),rgb(10, 169, 232));  
+
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 25px 20px;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.container .input{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input #location{
+    padding: 10px 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 7px 0 0 7px;
+}
+
+#location:focus{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+}
+
+.input #btn{
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 0 7px 7px 0;
+    margin-left: -40px;
+    background-color: rgba(14, 61, 58,1);
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 0px 0px 10px rgba(7, 122, 114, 0.6);
+
+}
+
+.info img{
+    width: 150px;
+    margin: 0px auto;
+    display: flex;
+
+}
+
+.info .temperature{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 600;
+}
+#c{
+    font-size: 35px;
+}
+
+.info .description{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.location{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 500;
+
+}
